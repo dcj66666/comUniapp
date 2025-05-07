@@ -4,6 +4,9 @@
 		<view class="text-area">
 			<text class="title">{{title}}</text>
 		</view>
+		
+		<dt-datetime-picker v-model="appointmentTime"
+			mode="datetime" title="选择时间"></dt-datetime-picker>
 	</view>
 </template>
 
@@ -11,7 +14,8 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: 'Hello',
+				appointmentTime: new Date(),
 			}
 		},
 		onLoad() {
