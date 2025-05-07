@@ -19,22 +19,6 @@
 
 ### 使用
 
-```vue
-<template>
-  <uv-button type="primary">按钮</uv-button>
-  <dt-datetime-picker v-model="date" mode="date" />
-</template>
-
-<script>
-export default {
-  data() {
-    return {
-      date: new Date()
-    }
-  }
-}
-</script>
-```
 
 ## 组件分类
 

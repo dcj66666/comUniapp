@@ -9,6 +9,11 @@
   },
   "devDependencies": {
     "vuepress": "^1.9.9",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "@vuepress/plugin-back-to-top": "^1.9.9",
+    "@vuepress/plugin-medium-zoom": "^1.9.9",
+    "@vuepress/plugin-nprogress": "^1.9.9",
+    "sass": "^1.32.13",
+    "sass-loader": "^10.1.1"
   }
 } 
