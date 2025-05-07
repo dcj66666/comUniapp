@@ -9,8 +9,8 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
   themeConfig: {
-    logo: '/logo.png',
-    repo: 'your-username/your-repo', // 替换为您的仓库地址
+    logo: 'https://img0.baidu.com/it/u=2607645373,2223422578&fm=253&fmt=auto&app=120&f=JPEG?w=747&h=466',
+    repo: 'https://github.com/dcj66666/comUniapp.git', // 替换为您的仓库地址
     docsDir: 'docs',
     editLinks: true,
     editLinkText: '在 GitHub 上编辑此页',
