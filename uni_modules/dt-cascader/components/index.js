@@ -1,8 +1,8 @@
-import RiskTypeCascader from './risk-type-cascader.vue'
+import DTCascader from './dt-cascader.vue'
 
 export default {
   install(Vue) {
-    Vue.component('risk-type-cascader', RiskTypeCascader)
+    Vue.component('dt-cascader', DTCascader)
   },
-  RiskTypeCascader
+  DTCascader
 } 
