@@ -1,0 +1,52 @@
+# 移动端组件库
+
+一个基于 uni-app 的移动端组件库，提供丰富的 UI 组件和交互功能。
+
+## 特性
+
+- 🚀 基于 uni-app 开发，支持多端运行
+- 📦 提供 60+ 个高质量组件
+- 🎨 支持主题定制
+- 📱 支持 H5、App、小程序等多端
+- 📖 详细的文档和示例
+- 🔧 支持 TypeScript
+
+## 快速开始
+
+### 安装
+
+组件已内置在项目中，位于 `uni_modules` 目录下，无需额外安装。
+
+### 使用
+
+```vue
+<template>
+  <uv-button type="primary">按钮</uv-button>
+  <dt-datetime-picker v-model="date" mode="date" />
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      date: new Date()
+    }
+  }
+}
+</script>
+```
+
+## 组件分类
+
+- 基础组件：按钮、单元格、图标等
+- 表单组件：输入框、单选框、复选框等
+- 反馈组件：轻提示、弹窗、加载等
+- 展示组件：标签页、轮播图、日历等
+- 导航组件：导航栏、标签栏、返回顶部等
+- 其他组件：上传、瀑布流、分页等
+
+## 文档
+
+- [组件文档](/components/)
+- [使用指南](/guide/)
+- [更新日志](/changelog/) 
