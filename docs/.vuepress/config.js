@@ -89,7 +89,6 @@ module.exports = {
             '/components/uv-grid',
             '/components/uv-steps',
             '/components/uv-skeleton',
-            '/components/uv-skeletons',
             '/components/uv-empty',
             '/components/uv-count-down',
             '/components/uv-count-to',

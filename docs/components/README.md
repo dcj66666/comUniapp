@@ -49,6 +49,7 @@
 ## 展示组件
 
 - [Tabs 标签页](./uv-tabs.md)
+- [DTTabs 纵向标签页](./dt-tabs.md)
 - [Vertical Tabs 纵向标签页](./uv-vtabs.md)
 - [Swiper 轮播图](./uv-swiper.md)
 - [Calendar 日历](./uv-calendar.md)
