@@ -118,6 +118,8 @@
   justify-content: space-around;
   align-items: flex-start;
   margin: 40px 0;
+  height: 80vh;
+  padding: 30px;
   flex-wrap: wrap;
 }
 
