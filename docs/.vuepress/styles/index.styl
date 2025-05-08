@@ -1,0 +1,59 @@
+// 调整主内容区域的宽度和边距
+.theme-container .page {
+  padding-right: 400px;
+}
+
+// 固定演示容器在右侧
+.demo-container {
+  position: fixed;
+  top: 3.6rem;
+  right: 0;
+  width: 375px;
+  height: calc(100vh - 3.6rem);
+  border-left: 1px solid #eaecef;
+  background: #fff;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.demo-preview {
+  height: 100%;
+}
+
+.demo-preview iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+// 响应式处理
+@media (max-width: 1200px) {
+  .theme-container .page {
+    padding-right: 0;
+  }
+  
+  .demo-container {
+    display: none;
+  }
+}
+
+// 添加切换按钮
+.demo-toggle {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 11;
+  background: #3eaf7c;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .demo-toggle {
+    display: block;
+  }
+} 

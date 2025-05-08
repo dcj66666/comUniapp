@@ -1,13 +1,32 @@
-# 组件列表
+# 组件示例
 
-本文档提供了基于 uni-app 的移动端组件库的使用指南，包含了丰富的功能组件，可以帮助您快速构建应用。
+## 在线演示
 
-## 基础组件
+<div class="demo-container">
+  <div class="demo-preview">
+    <iframe 
+      src="https://h5.uvui.cn/"
+      frameborder="0"
+      style="width: 375px; height: 667px;"
+    ></iframe>
+  </div>
+  <div class="demo-qrcode">
+    <div class="qrcode-text">
+      <p>扫描二维码在手机上查看</p>
+      <p>或访问：<a href="https://h5.uvui.cn/" target="_blank">https://h5.uvui.cn/</a></p>
+    </div>
+  </div>
+</div>
 
-- [Button 按钮](./uv-button.md)
+## 组件列表
+
+这里是我们提供的所有组件，点击可以查看详细说明和示例。
+
+### 基础组件
+- [Button 按钮](/components/uv-button.html)
+- [Icon 图标](/components/uv-icon.html)
+- [Image 图片](/components/uv-image.html)
 - [Cell 单元格](./uv-cell.md)
-- [Icon 图标](./uv-icon.md)
-- [Image 图片](./uv-image.md)
 - [Text 文本](./uv-text.md)
 - [Link 链接](./uv-link.md)
 - [Avatar 头像](./uv-avatar.md)
@@ -91,4 +110,45 @@
 - [Tooltip 文字提示](./uv-tooltip.md)
 - [Toolbar 工具栏](./uv-toolbar.md)
 - [Transition 过渡动画](./uv-transition.md)
-- [No Network 无网络提示](./uv-no-network.md) 
+- [No Network 无网络提示](./uv-no-network.md)
+
+<style>
+.demo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.demo-preview {
+  border: 1px solid #dcdfe6;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.demo-qrcode {
+  text-align: center;
+  margin: 20px;
+}
+
+.demo-qrcode img {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 10px;
+}
+
+.demo-qrcode p {
+  font-size: 14px;
+  color: #666;
+}
+
+@media screen and (max-width: 768px) {
+  .demo-preview {
+    transform: scale(0.8);
+    transform-origin: top center;
+  }
+}
+</style> 
