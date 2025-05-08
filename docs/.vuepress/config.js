@@ -56,7 +56,8 @@ module.exports = {
             '/components/uv-number-box',
             '/components/uv-rate',
             '/components/uv-slider',
-            '/components/uv-keyboard'
+            '/components/uv-keyboard',
+            '/components/dt-cascader'
           ]
         },
         {
@@ -96,7 +97,8 @@ module.exports = {
             '/components/uv-read-more',
             '/components/uv-parse',
             '/components/uv-qrcode',
-            '/components/uv-album'
+            '/components/uv-album',
+            '/components/dt-paging'
           ]
         },
         {
@@ -120,8 +122,6 @@ module.exports = {
           children: [
             '/components/uv-upload',
             '/components/uv-waterfall',
-            '/components/dt-paging',
-            '/components/dt-cascader',
             '/components/uv-search',
             '/components/uv-scroll-list',
             '/components/uv-row',

@@ -31,6 +31,8 @@
 - [Rate 评分](./uv-rate.md)
 - [Slider 滑块](./uv-slider.md)
 - [Keyboard 键盘](./uv-keyboard.md)
+- [DatetimePicker 日期时间选择器](./dt-datetime-picker.md)
+- [Cascader 级联选择器](./dt-cascader.md)
 
 ## 反馈组件
 
@@ -63,6 +65,7 @@
 - [Parse 富文本解析](./uv-parse.md)
 - [QR Code 二维码](./uv-qrcode.md)
 - [Album 相册](./uv-album.md)
+- [Paging 分页](./dt-paging.md)
 
 ## 导航组件
 
